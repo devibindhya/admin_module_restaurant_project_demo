@@ -1,0 +1,102 @@
+*{
+	margin:0 0;
+	padding: 0  0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+	/*border:1px solid yellow;*/
+	padding: 1%;
+	width:80%;
+	margin:0 auto;
+}
+.text-center{
+	text-align: center;
+	color:red;
+}
+/*when the footer overlap with menu content we usr clearfix*/
+.clearfix{
+	float:none;
+	clear:both;
+}
+/*Css for admintable*/
+.tbl-full{
+	width:100%;	
+}
+table tr th{
+	border-bottom: 1px solid black;
+	padding:1%;
+	text-align: left;
+}
+table tr td{
+	padding:1%;
+}
+.tbl-30{
+	width:30%;
+}
+.btn-primary{
+	background-color: #1e90ff;
+	padding: 1%;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: #70a1ff;
+}
+.btn-secondary{
+	background-color: #7bed9f;
+	padding: 1%;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color:#2ed573;
+}
+.btn-danger{
+	background-color: #f19066;
+	padding: 1%;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-danger:hover{
+	background-color:#eb2f06;
+}
+.success{
+color:#2ed573;	
+}
+.failed{
+	color:#eb2f06;
+}
+/*CSS for Menu*/
+.menu{
+	text-align:center;
+	border-bottom:1px solid grey;
+	box-shadow:2px ;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li {
+	display:inline-block;
+	padding: 1%;
+	color:green;
+}
+.main-content{
+	background-color: #f1f2f6;
+	padding:3%;
+}
+.col-4{
+	width:18%;
+	margin:1%;
+	padding: 2%;
+	background-color:white;
+	float: left;
+	
+}
+
+/*CSS for footer*/
+.footer{
+	background-color: #ea8685;
+}

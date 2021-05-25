@@ -1,0 +1,272 @@
+*
+{
+	margin:0 0;
+	padding: 0  0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+ //border: 1px solid red;
+ width:80%;
+ /*to place the content on the middle equal space between left and right */
+ margin:0 auto ;
+ /*to provide space around the content inside each container*/
+ padding: 1%;
+}
+.text-center
+{
+	text-align: center;
+}
+h2
+{
+	color:#2c3e50;
+	font-size: 2rem;
+	margin-bottom: 2%;
+}
+h3
+{
+	font-size: 1.5rem;
+}
+/* CSS for Navigation Bar Starts*/
+/* for the logo image start*/
+.logo
+{
+	//border: 1px solid black;
+	width:10%;
+	/* float left is used for aligning the menus and logo image in same horizontal line*/
+	float:left;
+}
+  .img-responsive
+  {
+  	width:100%;
+  }
+  /* to avoid overlap between section which occur as a result of writing float:left in .logo*/
+  .clearfix
+  {
+  	clear:both;
+  	float:none;
+  }
+ /* for the logo image end */
+
+ /* for nav menu starts*/
+ 
+ .text-right 
+ {/*to move the menus to right side*/
+ 	text-align: right;
+ }
+ 
+.menu
+{
+	line-height: 40px;
+}
+
+ .menu ul 
+ {
+ 	list-style-type: none; 	
+ }
+.menu ul li
+{/* to make the menus in same line*/
+ display:inline;
+ /* to provide space between each menu*/
+ padding:1%;
+
+}
+.menu ul li a
+{
+	color:#e67e22;
+	text-decoration: none;
+}
+.menu ul li a:hover
+{
+color:#c0392b;
+font-weight:bold;
+//letter-spacing: 4px;
+//line-height:50px;
+}
+.float-container
+{
+	/* the food name is displaying on the top of the foodimage*/
+position: relative;
+}
+.float-text
+{
+/* the food name is displaying on the top of the foodimage to move the title to desired position*/
+position: absolute;
+bottom: 48px;
+left:30%;
+}
+.float-white{
+
+color:white;
+
+}
+.img-curve
+{
+	border-radius: 5px;
+}
+
+/* for nav menu ends*/
+/* CSS for Navigation Bar Ends*/
+ 
+/*CSS  for food-search section starts*/
+.food-search
+{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 8% 0;
+	background-position: center;
+}
+
+.food-search input[type="search"]
+{
+	width:50%;
+	padding:1%;
+	font-size:1rem;
+	border:none;
+	border-radius: 5px;
+
+}
+.btn
+{
+	border:none;
+	padding:10px;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+.btn-primary
+{
+	background-color: #e67e22;
+	color:black;
+	cursor: pointer;
+}
+.btn-primary:hover
+{
+	background-color: #c0392b;
+	color:white;
+}
+
+/*CSS  for food-search section end*/
+
+/*CSS  for Categories  section start*/
+.categories
+{
+	padding: 4% 0;
+}
+.box-3
+{
+	//border: 1px solid black;
+	width:28%;
+	/* to display boxes one by one horizontally*/
+	display:inline-block;
+	margin:2%;
+	
+}
+/*CSS  for Categories  section end*/
+/*CSS  for Food MENU  section Starts*/
+.food-menus
+{
+	background-color: #ececec;
+	padding:1.5%;
+}
+.food-menus-box{
+	border: 1px solid black;
+	margin:1%;
+	padding:2% ;
+	width:40%;
+	float:left;
+	background-color: white;
+	border-radius: 15px;
+}
+.food-menus-img
+{
+	width:21%;
+	float:left;
+}
+.food-menus-desc
+{
+	width:70%;
+	float:left;
+	margin-left: 8%;
+}
+.food-price
+{
+	font-size: 1.2rem;
+	margin :2 0;
+}
+.food-detail
+{
+	color:grey;
+	font-size: 1rem;
+}
+/*CSS  for Food MENU  section End*/
+/*CSS  for Social  section Starts*/
+.social ul
+{
+	list-style-type: none;
+
+}
+.social ul li
+{
+	display:inline;
+	padding: 1%;
+	
+}
+/*CSS  for Social  section End*/
+
+/*CSS for MObile Version Starts*/
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+/*CSS for MObile Version Ends*/
